@@ -12,7 +12,7 @@ const styles = theme => ({
   }
 });
 
-function ContainedButtons(props) {
+function Index(props) {
   const { classes } = props;
   return (
     <div>
@@ -56,8 +56,8 @@ function ContainedButtons(props) {
   );
 }
 
-ContainedButtons.propTypes = {
+Index.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(ContainedButtons);
+export default withStyles(styles)(Index);
